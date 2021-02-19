@@ -1,0 +1,14 @@
+name: chnroute
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  chnroute_update:
+    runs-on: ubuntu-latest
+    step:
+      - uses: actions/checkout@v2
+      - run: |
+        make sync
+        make update_repo
