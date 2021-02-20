@@ -19,5 +19,5 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ env.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add .
-          git commit -m "Auto update $(date -u '+%Y-%m-%d %H:%M:%S')"
+          git diff-index --quiet HEAD || git commit -m "Auto update $(date -u '+%Y-%m-%d %H:%M:%S')"
           git push
