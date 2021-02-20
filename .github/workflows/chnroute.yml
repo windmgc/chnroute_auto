@@ -1,5 +1,8 @@
 name: chnroute
 
+env:
+  GITHUB_TOKEN: ${{ secrets.ACC_TOKEN }}
+
 on:
   workflow_dispatch:
   schedule:
@@ -12,4 +15,9 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           make sync
-          make update_repo
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git add .
+          git commit -m "Auto update $(date -u '+%Y-%m-%d %H:%M:%S')"
+          git push

@@ -9,6 +9,7 @@ generate_chnroutes:
 	src/chnroutes.py
 
 update_repo:
+	git pull origin master
 	git add .
 	git diff-index --quiet HEAD || git commit -m "Auto updated $(TIME_NOW)"
 	git push origin master
