@@ -25,10 +25,10 @@
 #
 ######################################################################
 #
-2|apnic|20220108|72000|19830613|20220107|+1000
+2|apnic|20220109|71998|19830613|20220107|+1000
 apnic|*|asn|*|11224|summary
-apnic|*|ipv4|*|48265|summary
-apnic|*|ipv6|*|12511|summary
+apnic|*|ipv4|*|48264|summary
+apnic|*|ipv6|*|12510|summary
 apnic|JP|asn|173|1|20020801|allocated
 apnic|NZ|asn|681|1|20020801|allocated
 apnic|AU|asn|1221|1|20000131|allocated
@@ -5231,7 +5231,6 @@ apnic|MY|asn|132372|1|20160818|allocated
 apnic|JP|asn|132373|1|20120823|allocated
 apnic|HK|asn|132374|1|20120827|allocated
 apnic|NZ|asn|132375|1|20120827|allocated
-apnic|MY|asn|132376|1|20120827|allocated
 apnic|IN|asn|132377|1|20120828|allocated
 apnic|IN|asn|132378|1|20120828|allocated
 apnic|AU|asn|132379|1|20120828|allocated
@@ -11253,6 +11252,7 @@ apnic|CA|asn|149422|1|20220106|allocated
 apnic|TW|asn|149423|1|20220107|allocated
 apnic|CA|asn|149424|1|20220107|allocated
 apnic|BD|asn|149425|1|20220107|allocated
+apnic|BD|asn|149426|1|20220107|allocated
 apnic|AU|ipv4|1.0.0.0|256|20110811|assigned
 apnic|CN|ipv4|1.0.1.0|256|20110414|allocated
 apnic|CN|ipv4|1.0.2.0|512|20110414|allocated
@@ -18118,7 +18118,6 @@ apnic|US|ipv4|103.15.125.0|256|20120828|assigned
 apnic|NZ|ipv4|103.15.126.0|512|20120827|allocated
 apnic|AU|ipv4|103.15.128.0|1024|20120827|allocated
 apnic|HK|ipv4|103.15.132.0|1024|20120827|allocated
-apnic|MY|ipv4|103.15.136.0|1024|20120827|assigned
 apnic|BD|ipv4|103.15.140.0|512|20120828|allocated
 apnic|BD|ipv4|103.15.142.0|256|20120828|assigned
 apnic|ID|ipv4|103.15.143.0|256|20120828|assigned
@@ -61094,7 +61093,6 @@ apnic|NZ|ipv6|2001:df1:5700::|48|20170605|assigned
 apnic|KH|ipv6|2001:df1:5780::|48|20190905|assigned
 apnic|BD|ipv6|2001:df1:5800::|48|20131220|assigned
 apnic|ID|ipv6|2001:df1:5880::|48|20190905|assigned
-apnic|MY|ipv6|2001:df1:5900::|48|20170606|assigned
 apnic|ID|ipv6|2001:df1:5980::|48|20190905|assigned
 apnic|AU|ipv6|2001:df1:5a00::|48|20160331|assigned
 apnic|PH|ipv6|2001:df1:5a80::|48|20190906|assigned
