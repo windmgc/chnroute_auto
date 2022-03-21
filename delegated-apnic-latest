@@ -25,10 +25,10 @@
 #
 ######################################################################
 #
-2|apnic|20220321|73409|19830613|20220318|+1000
+2|apnic|20220322|73417|19830613|20220321|+1000
 apnic|*|asn|*|11319|summary
-apnic|*|ipv4|*|49383|summary
-apnic|*|ipv6|*|12707|summary
+apnic|*|ipv4|*|49390|summary
+apnic|*|ipv6|*|12708|summary
 apnic|JP|asn|173|1|20020801|allocated
 apnic|NZ|asn|681|1|20020801|allocated
 apnic|AU|asn|1221|1|20000131|allocated
@@ -33852,6 +33852,7 @@ apnic|IN|ipv4|103.184.4.0|512|20220317|allocated
 apnic|IN|ipv4|103.184.6.0|512|20220317|allocated
 apnic|IN|ipv4|103.184.8.0|512|20220317|allocated
 apnic|JP|ipv4|103.184.10.0|256|20220317|assigned
+apnic|IN|ipv4|103.184.11.0|256|20220321|allocated
 apnic|ID|ipv4|103.184.12.0|512|20220317|allocated
 apnic|ID|ipv4|103.184.14.0|512|20220317|allocated
 apnic|ID|ipv4|103.184.16.0|512|20220317|allocated
@@ -33862,6 +33863,12 @@ apnic|BD|ipv4|103.184.24.0|512|20220318|allocated
 apnic|ID|ipv4|103.184.26.0|512|20220318|allocated
 apnic|ID|ipv4|103.184.28.0|512|20220318|allocated
 apnic|ID|ipv4|103.184.30.0|512|20220318|allocated
+apnic|AU|ipv4|103.184.32.0|512|20220320|allocated
+apnic|IN|ipv4|103.184.34.0|512|20220321|assigned
+apnic|IN|ipv4|103.184.36.0|512|20220321|assigned
+apnic|IN|ipv4|103.184.38.0|512|20220321|assigned
+apnic|IN|ipv4|103.184.40.0|512|20220321|allocated
+apnic|IN|ipv4|103.184.42.0|512|20220321|assigned
 apnic|CN|ipv4|103.192.0.0|1024|20150715|allocated
 apnic|CN|ipv4|103.192.4.0|1024|20150715|allocated
 apnic|CN|ipv4|103.192.8.0|1024|20150715|allocated
@@ -54148,7 +54155,7 @@ apnic|AU|ipv4|203.27.14.0|256|19960513|assigned
 apnic|CN|ipv4|203.27.15.0|256|20110414|allocated
 apnic|CN|ipv4|203.27.16.0|256|20110414|allocated
 apnic|AU|ipv4|203.27.17.0|256|19960513|assigned
-apnic|AU|ipv4|203.27.18.0|256|19960513|assigned
+apnic|NZ|ipv4|203.27.18.0|256|19960513|allocated
 apnic|AU|ipv4|203.27.19.0|256|19960514|assigned
 apnic|CN|ipv4|203.27.20.0|256|20110414|allocated
 apnic|AU|ipv4|203.27.21.0|256|19960514|assigned
@@ -66274,6 +66281,7 @@ apnic|PK|ipv6|2400:65e0::|32|20220317|allocated
 apnic|CN|ipv6|2400:6600::|32|20100316|allocated
 apnic|NZ|ipv6|2400:6620::|32|20220318|allocated
 apnic|CN|ipv6|2400:6640::|32|20161209|allocated
+apnic|AU|ipv6|2400:6660::|32|20220320|allocated
 apnic|SG|ipv6|2400:6680::|32|20131128|allocated
 apnic|CN|ipv6|2400:66c0::|32|20161210|allocated
 apnic|JP|ipv6|2400:6700::|32|20110419|allocated
