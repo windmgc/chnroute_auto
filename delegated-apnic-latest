@@ -25,10 +25,10 @@
 #
 ######################################################################
 #
-2|apnic|20220626|74636|19830613|20220624|+1000
-apnic|*|asn|*|11482|summary
-apnic|*|ipv4|*|50186|summary
-apnic|*|ipv6|*|12968|summary
+2|apnic|20220627|74640|19830613|20220626|+1000
+apnic|*|asn|*|11483|summary
+apnic|*|ipv4|*|50187|summary
+apnic|*|ipv6|*|12970|summary
 apnic|JP|asn|173|1|20020801|allocated
 apnic|NZ|asn|681|1|20020801|allocated
 apnic|AU|asn|1221|1|20000131|allocated
@@ -11511,6 +11511,7 @@ apnic|PK|asn|149984|1|20220624|allocated
 apnic|BD|asn|149985|1|20220624|allocated
 apnic|PK|asn|149986|1|20220624|allocated
 apnic|BD|asn|149987|1|20220624|allocated
+apnic|BD|asn|149988|1|20220626|allocated
 apnic|AU|ipv4|1.0.0.0|256|20110811|assigned
 apnic|CN|ipv4|1.0.1.0|256|20110414|allocated
 apnic|CN|ipv4|1.0.2.0|512|20110414|allocated
@@ -34799,6 +34800,7 @@ apnic|ID|ipv4|103.190.32.0|512|20220624|allocated
 apnic|BD|ipv4|103.190.34.0|512|20220624|allocated
 apnic|VN|ipv4|103.190.36.0|512|20220624|assigned
 apnic|VN|ipv4|103.190.38.0|512|20220624|allocated
+apnic|NP|ipv4|103.190.40.0|512|20220626|assigned
 apnic|CN|ipv4|103.192.0.0|1024|20150715|allocated
 apnic|CN|ipv4|103.192.4.0|1024|20150715|allocated
 apnic|CN|ipv4|103.192.8.0|1024|20150715|allocated
@@ -63360,6 +63362,7 @@ apnic|BD|ipv6|2001:df0:e340::|48|20220624|assigned
 apnic|BD|ipv6|2001:df0:e380::|48|20190710|assigned
 apnic|VN|ipv6|2001:df0:e3c0::|48|20220624|assigned
 apnic|IN|ipv6|2001:df0:e400::|48|20141013|assigned
+apnic|NP|ipv6|2001:df0:e440::|48|20220626|assigned
 apnic|AU|ipv6|2001:df0:e480::|47|20190711|assigned
 apnic|AU|ipv6|2001:df0:e580::|48|20190711|assigned
 apnic|SG|ipv6|2001:df0:e600::|48|20160226|assigned
@@ -67686,6 +67689,7 @@ apnic|IN|ipv6|2400:8c20::|32|20220624|allocated
 apnic|PK|ipv6|2400:8c40::|32|20170110|allocated
 apnic|VN|ipv6|2400:8c60::|32|20220624|allocated
 apnic|AU|ipv6|2400:8c80::|32|20140110|allocated
+apnic|BD|ipv6|2400:8ca0::|32|20220626|allocated
 apnic|HK|ipv6|2400:8cc0::|32|20170110|allocated
 apnic|HK|ipv6|2400:8d00::|32|20110428|allocated
 apnic|JP|ipv6|2400:8d40::|32|20170110|allocated
